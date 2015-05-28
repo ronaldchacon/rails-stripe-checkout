@@ -1,20 +1,17 @@
 Rails Stripe Checkout
 ================
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+An application to sell a single digital product such as an ebook.
 
-Rails Composer is open source and supported by subscribers. Please join RailsApps to support development of Rails Composer.
+The application offers these features:
 
-Problems? Issues?
------------
+welcome page offers an ebook for sale
+visitor enters an email address and password to create an account
+visitor enters credit card information and payment is processed by Stripe
+the user can download a digital product
+the user can return to the site and repeat the download if needed
+background processing with Active Job adds the email address to a mailing list
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
 
 Ruby on Rails
 -------------
@@ -23,26 +20,3 @@ This application requires:
 
 - Ruby 2.2.2
 - Rails 4.2.1
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
