@@ -13,6 +13,8 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'gibbon'
 gem 'sucker_punch'
+gem 'stripe'
+gem 'figaro'
 
 group :development, :test do
   gem 'byebug'
